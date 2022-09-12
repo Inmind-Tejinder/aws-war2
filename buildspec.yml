@@ -12,9 +12,9 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-      - mv target/ROOT-1.0.0.war ROOT-1.0.0.war
+      - mv target/ROOT-1.0.0.war ROOT.war
 artifacts:
   files:
-    - ROOT-1.0.0.war
+    - ROOT.war
     - .ebextensions/**/*
   discard-paths: yes
